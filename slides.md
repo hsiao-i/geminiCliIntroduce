@@ -169,40 +169,35 @@ pre code {
 
 ---
 
-# 📋 使用 GEMINI.md 提供背景知識
+# 使用 GEMINI.md 提供背景知識
 
 <!-- 利用專案根目錄的 `GEMINI.md` 檔案，為 AI 提供專案背景與需求資訊 -->
 
 <div class="grid grid-cols-2 gap-8">
 
   <div>
-    <h2 class="mb-3">核心功能</h2>
-    <ol>
-      <li>在專案根目錄建立 GEMINI.md</li>
-      <li>CLI 執行時自動讀取該檔案</li>
-      <li>提供 AI 專案背景與需求資訊</li>
-    </ol>
+    <div class="mb-8">
+      <h2 class="mb-2">核心功能</h2>
+      <ol>
+        <li>在專案根目錄建立 GEMINI.md</li>
+        <li>CLI 執行時自動讀取該檔案</li>
+        <li>提供 AI 專案背景與需求資訊</li>
+      </ol>
+    </div>
+    <div>
+      <h2 class="mb-2">階層式套用</h2>
+      <ol>
+        <li>子資料夾內也可建立 `GEMINI.md`</li>
+        <li>針對不同資料夾給不同說明</li>
+        <li>/memory show 查看目前載入的所有記憶內容</li>
+      </ol>
+    </div>
   </div>
 
-  <div >
-    <h2 class="mb-3">階層式套用</h2>
-    <ol>
-      <li>子資料夾內也可建立 `GEMINI.md`</li>
-      <li>針對不同資料夾給不同說明</li>
-    </ol>
+  <div>
+    <img src="./images/geminiMdSample.png" alt="geminiMdSample" />
   </div>
 
-  <div class="mt-8">
-
-## 記憶管理指令
-
-查看目前載入的所有記憶內容
-
-```bash
-/memory show
-```
-
-  </div>
 </div>
 
 ---
